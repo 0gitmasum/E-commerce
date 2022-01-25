@@ -1,0 +1,109 @@
+.container{
+    margin-bottom: 50px;
+}
+.nav-bg-color{
+    background-color: #57627a;
+}
+.tv-bg-color{
+    background-color: #fceae8;
+}
+.carousel-item{
+    padding: 20px 40px;
+}
+
+    /* categories style start */
+.cate-1, .cate-2, .cate-3{
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+.cate-1{
+    background-image: linear-gradient(to bottom, rgb(230, 167, 50) 0%, orange 100%);
+}
+.cate-2{
+    background-image: linear-gradient(to top, rgb(209, 58, 108) 0%, rgb(231, 53, 151));
+    color:palevioletred;
+}
+.cate-3{
+    background-image: linear-gradient(to top, rgb(49, 49, 238) 0%, royalblue 100%);
+}
+.categories h1{
+    color: white;
+}
+.categories img{
+    width: 100px;
+}
+    /* categories style start */
+
+.card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 5px lightgray;
+}
+
+    /*Backpack style start*/
+.btn-product{
+    border: none;
+    border-radius: 8px;
+    color: white;
+    background-color: brown;
+    padding: 8px 18px;
+    cursor: pointer;
+}
+.card-footer{
+    background-color: white;
+    border-top: none;
+    margin-bottom: 10px;
+}
+    /*Backpack style start*/
+
+
+    /* shoes style start */
+.price{
+    color: #f82727cb;
+    padding-bottom: 15px;
+}
+.btn-buy-now{
+    background-image: linear-gradient(to bottom, #ff589B 0%, #ff136f 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+/* shoes style start */
+
+    
+#contract{
+    height: 350px;
+    background-color: #fde2df;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#contract h4, h6{
+    text-align: center;
+    padding-bottom: 12px;
+}
+.contract-info{
+    border: none;
+    width: 400px;
+}
+.btn-submit{
+    color: white;
+    background-color: chocolate;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+    /* Contract style start */
+
+footer{
+    background-color: #333542;
+    height: 70px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+footer a:hover{
+    color: white;
+    text-decoration: underline;
+}
